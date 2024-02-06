@@ -1,22 +1,73 @@
 @charset "UTF-8" ;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    
     padding: 0px;
     margin: 0px;
+    
 }
 header{
-    background-image: linear-gradient(to bottom,#734F22,#401F0C );
-    color: rgba(255, 255, 255, 0.801);
+    background-image: linear-gradient(to bottom,#A6775B,#D97D48);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.512);
     padding: 30px;
     margin: auto;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.495);
 
 }
-menu{
-    text-align: right;
+body{
+    background-color: #223740;
+    font-family: Arial, Helvetica, sans-serif; 
 }
-a{
+
+h1{
+    transition: 1s;
+    font-family: 'Great Vibes';
+    font-size:3em ;
+}
+nav {
+    background-color: #D97D48;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+nav a{
     text-decoration: none;
     color: black;
+    padding: 10px;
+    transition-duration: 1s;
+}
+nav a:hover{
+    background-color: #223740;
+    color: white;
+}
+main{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.501) ;
+    
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 1.1em;
+    word-spacing: 1px;
+}
+footer{
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
 }
